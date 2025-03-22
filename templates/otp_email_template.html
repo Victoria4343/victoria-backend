@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTP Verification</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body style="font-family: 'Albert Sans', sans-serif; background-color: #f7f7f7; color: black; margin: 0; padding: 0;">
+    <div
+        style="max-width: 600px; margin: 20px auto; background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+        <div
+            style="background: #0475eb; padding: 15px; text-align: center; color: #fff; font-size: 20px; font-weight: bold; border-radius: 8px 8px 0 0;">
+            {{ data.app_name }}
+        </div>
+        <div style="padding: 20px; text-align: center; color: black;">
+            <p>{{ data.title }}</p>
+            <p>{{ data.body }}</p>
+            <p
+                style="font-size: 24px; font-weight: bold; color: #0475eb; background: #adcdf4; display: inline-block; padding: 10px 20px; border-radius: 5px; margin-top: 10px;">
+                {{ data.otp }}
+            </p>
+            <p>If you did not request this, please ignore this email.</p>
+        </div>
+        <div style="margin-top: 20px; text-align: center; font-size: 14px; color: #245686;">
+            &copy; {{ data.app_name }} - All Rights Reserved
+        </div>
+    </div>
+</body>
+
+</html>
