@@ -1,0 +1,399 @@
+{
+    "Aurora":{
+        "iso": "Aurora",
+        "mapping":
+        {
+            "mid": "Merchant ID",
+            "dba": "Merchant Name",
+            "volume": "Total revenue",
+            "total_residual": "Residual amount",
+            "paydiverse_residual": "Residual payout (before adjustments)" 
+        }     
+    },
+    "Authorize.Net":{
+        "iso": "Authorize.Net",
+        "mapping":
+        {
+            "mid": "MID",
+            "dba": "Reference ID",
+            "paydiverse_residual": "{Collection Attempts } - {Collection Returns/Subsidized Fees}" 
+        }     
+    },
+    
+    "Beyond Bancard":{
+        "iso": "Beyond Bancard",
+        "mapping":
+        {
+            "mid": "Merchant ID",
+            "dba": "Merchant",
+            "volume": "Sales Amount",
+            "total_residual": "Net",
+            "paydiverse_residual": "Agent Net"   
+        }   
+    },
+
+    "Vendara Payments (Choice)":{
+        "iso": "Vendara Payments (Choice)",
+        "mapping":
+        {
+            "mid": "Merchant MID",
+            "dba": "Merchant Name",
+            "volume": "Gross Vol",
+            "total_residual": "GrossResidual",
+            "paydiverse_residual": "Net Residual"      
+        }
+    },
+
+    "Coastal":{
+        "iso": "Coastal",
+        "mapping":
+        {
+            "mid": "Merchant ID",
+            "dba": "Merchant",
+            "volume": "Sales Amount",
+            "total_residual": "Net",
+            "paydiverse_residual": "Agent Net"     
+        } 
+    },
+
+    "Cardworks":{
+        "iso": "Cardworks",
+        "mapping":
+        {
+            "mid": "ACCOUNT",
+            "dba": "DBA Name",
+            "volume": "Total Sales",
+            "total_residual": "Net Profit",
+            "paydiverse_residual": "Payment to Sales Agent" 
+        }
+    },
+
+    "CC Bill": {
+        "iso": "CC Bill"
+    },
+
+    "Finical":{
+        "iso": "Finical",
+        "mapping":
+        {
+            "mid": "MID",
+            "dba": "DBAname",
+            "volume": "TotalVolume",
+            "total_residual": "Gross Profit",
+            "paydiverse_residual": "Payout"
+        }
+    },
+
+    "First Direct Financial":{
+        "iso": "First Direct Financial",
+        "mapping":
+        {
+            "mid": "Merchant ID",
+            "dba": "Merchant",
+            "volume": "Sales Amount",
+            "total_residual": "Net",
+            "paydiverse_residual": "Agent Net"
+        }
+    },
+
+    "GET":{
+        "iso": "GET",
+        "mapping":
+        {
+            "mid": "MID",
+            "dba": "DBAName",
+            "volume": "TotalVolumeSales",
+            "total_residual": "NetIncome",
+            "paydiverse_residual": "CommissionAmount"
+        }
+    },
+
+    "Humboldt":{
+        "iso": "Humboldt",
+        "mapping":
+        {
+            "mid": "Merchant Num",
+            "dba": "Merchant DBA",
+            "volume": "Gross Sales",
+            "total_residual": "Net Income",
+            "paydiverse_residual": "Agent Resid"
+        }
+    },
+
+    "Maverick":{
+        "iso": "Maverick",
+        "mapping":
+        {
+            "mid": "MID",
+            "dba": "DBA",
+            "volume": "Sales Amount",
+            "total_residual": "Total Net Revenue",
+            "paydiverse_residual": "Agent Payout"
+        }
+    },
+
+    "Merchant Industry":{
+        "iso": "Merchant Industry",
+        "mapping":{
+            "mid": "MID",
+            "dba": "Name",
+            "volume": "Volume",
+            "total_residual": "Income",
+            "paydiverse_residual": "Net" 
+        }
+    },
+
+    "MerchantE-Fresno":{
+        "iso": "MerchantE-Fresno",
+        "mapping":{
+            "mid": "Org Id",
+            "dba": "Organization",
+            "volume": "",
+            "total_residual": "",
+            "paydiverse_residual": "Net P/L" 
+        }
+    },
+
+    "MerchantE-Synovous":{
+        "iso": "MerchantE-Synovous",
+        "mapping":
+        {
+            "mid": "Org Id",
+            "dba": "Organization",
+            "volume": "",
+            "total_residual": "",
+            "paydiverse_residual": "Net P/L" 
+        }
+    },
+
+    "MIcamp NMI": {
+        "iso": "MIcamp NMI"
+    },
+
+    "Netevia":{
+        "iso": "Netevia",
+        "mapping":
+        {
+            "mid": "Merchant Id",
+            "dba": "DBA",
+            "volume": "Income",
+            "total_residual": "",
+            "paydiverse_residual": "Frank Sena"
+        }
+    },
+
+    "Nexio (CMS)":{
+        "iso": "Nexio (CMS)",
+        "mapping":
+        {
+            "mid": "MID",
+            "dba": "Merchant Name",
+            "volume": "Volume",
+            "total_residual": "Gross Residual",
+            "paydiverse_residual": "Agent Residual" 
+        }
+    },
+
+    "NMI":{
+        "iso": "NMI",
+        "mid": "MID",
+        "dba": "Merchant",
+        "volume": "",
+        "total_residual": "",
+        "paydiverse_residual": "Total Commission" 
+    },
+
+    "Nuvei":{
+        "iso": "Nuvei",
+        "mid": "MID",
+        "dba": "DBA Name",
+        "volume": "",
+        "total_residual": "Total Profit",
+        "paydiverse_residual": "Agent Net" 
+    },
+
+    "PayArc":{
+        "iso": "PayArc",
+        "mapping":
+        {
+            "mid": "MID",
+            "dba": "Merchant",
+            "volume": "Captured Sales",
+            "total_residual": "Gross Profit",
+            "paydiverse_residual": "Agent Income" 
+        }
+    },
+    "Payment Cloud":{
+        "iso": "Payment Cloud"
+    },
+
+    "Payment Cloud EMS OR":{
+        "iso": "",
+        "mid": "MID",
+        "dba": "DBA",
+        "volume": "BC Volume",
+        "total_residual": "Res. Earned",
+        "paydiverse_residual": "Partner Comm" 
+    },
+
+    "PaymentCloud DigiPay":{
+        "iso": "",
+        "mid": "MID",
+        "dba": "DBA",
+        "volume": "Volume",
+        "total_residual": "Revenue",
+        "paydiverse_residual": "Partner Comm." 
+    },
+
+    "Payment Cloud EMS":{
+        "iso": "Payment Cloud",
+        "mid": "MID",
+        "dba": "DBA",
+        "volume": "BC Volume",
+        "total_residual": "Revenue",
+        "paydiverse_residual": "Partner Comm" 
+    },
+
+    "Payment Cloud NXGEN":{
+        "iso": "Payment Cloud",
+        "mid": "MID",
+        "dba": "Merchant",
+        "volume": "Volume",
+        "total_residual": "Payee Income",
+        "paydiverse_residual": "Partner Comm" 
+    },
+
+    "Payment Cloud FD":{
+        "iso": "Payment Cloud",
+        "mid": "MID",
+        "dba": "Merchant",
+        "volume": "Volume",
+        "total_residual": "Payee Income",
+        "paydiverse_residual": "Partner Comm" 
+    },
+
+    "Payment Cloud TMS":{
+        "iso": "Payment Cloud",
+        "mid": "MID",
+        "dba": "DBAName",
+        "volume": "Volume",
+        "total_residual": "Total",
+        "paydiverse_residual": "Partner Comm" 
+    },
+
+    "PayScout":{
+        "iso": "PayScout",
+        "mapping":
+        {
+            "mid": "Merchant Identifier",
+            "dba": "DBA",
+            "volume": "Volume",
+            "total_residual": "Revenue",
+            "paydiverse_residual": "Commission" 
+        }
+    },
+
+    "Pepper Pay":{
+        "iso": "Pepper Pay"
+    },
+
+    "RAC":{
+        "iso": "RAC",
+        "mapping":
+        {
+            "mid": "MID",
+            "dba": "MERCHANT",
+            "volume": "NET SALES",
+            "total_residual": "SPLIT TO RAC - 70%",
+            "paydiverse_residual": "SPLIT TO AGENT - 70%" 
+        }
+    },
+
+    "Salus Payments":{
+        "iso": "Salus Payments",
+        "mapping":
+        {
+            "mid": "Merchant ID",
+            "dba": "Merchant",
+            "volume": "Sales Amount",
+            "total_residual": "Net",
+            "paydiverse_residual": "Agent Net" 
+        }
+    },
+
+    "Seamless Chex": {
+        "iso": "Seamless Chex"
+    },
+
+    "Seamless Chex Paynote": {
+        "iso": "Seamless Chex Paynote"
+    },
+
+    "SignaPay":{
+        "iso": "SignaPay",
+        "mapping":
+        {
+            "mid": "MID",
+            "dba": "DBA",
+            "volume": "Volume",
+            "total_residual": "",
+            "paydiverse_residual": "Total Net" 
+        }
+    },
+
+    "Signature Payments":{
+        "iso": "Signature Payments",
+        "mapping":
+        {
+            "mid": "account",
+            "dba": "merchant",
+            "volume": "",
+            "total_residual": "",
+            "paydiverse_residual": "resdamt" 
+        }
+    },
+
+    "Talus Pay":{
+        "iso": "Talus Pay",
+        "mapping":
+        {
+            "mid": "Merchant ID",
+            "dba": "Merchant",
+            "volume": "Sales Amount",
+            "total_residual": "Net",
+            "paydiverse_residual": "Agent Net" 
+        }
+    },
+
+    "Total-Apps":{
+        "iso": "Total-Apps",
+        "mapping":
+        {
+            "mid": "MID",
+            "dba": "Customer",
+            "volume": "Sales Volume",
+            "total_residual": "Total-apps Income",
+            "paydiverse_residual": "Referral $ Split" 
+        }
+    },
+
+    "Worldpay (Vantiv)":{
+        "iso": "Worldpay (Vantiv)",
+        "mapping":
+        {
+            "mid": "MERCH_NBR",
+            "dba": "MERCHANT_NAME",
+            "volume": "TOTAL_SALES_VOLUME",
+            "total_residual": "TOTAL_MERCH_REV",
+            "paydiverse_residual": "TOTAL_ADJ_RESID"
+        } 
+    },
+
+    "The HiRisk Processor":{
+        "iso": "The HiRisk Processor"
+    },
+
+    "Quantum":{
+        "iso": "Quantum"
+    }
+}
